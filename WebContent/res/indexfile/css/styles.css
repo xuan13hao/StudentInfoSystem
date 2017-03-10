@@ -1,0 +1,224 @@
+/* Free css docuement at www.cssmoban.com
+Template: Home Decoration
+ Author Paarth */
+
+
+body {
+padding : 0;
+margin : 0;
+background : #333;
+color : #444;
+font : 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+padding-top : 8px;
+}
+div, p, ul, h1, h2, h3, h4, img {
+padding : 0;
+margin : 0;
+}
+h1, h2, h3, h4 {
+color : #c00;
+}
+ul {
+list-style-type : none;
+}
+.clear {
+clear : both;
+margin : 0;
+height : 0;
+}
+p a {
+font : 13px Tahoma, sans-serif;
+color : #d07f22;
+text-decoration : underline;
+}
+p a:hover {
+color : #000;
+text-decoration : none;
+}
+.headline {
+font : 12px/14px Tahoma, Geneva, sans-serif;
+color : #8c0f06;
+font-weight : bold;
+}
+.headline2 {
+font : 11px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+color : #d07f22;
+}
+.inner_copyright{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+#container {
+width : 960px;
+margin : 0 auto;
+}
+#headerPan {
+width : 960px;
+height : 260px;
+position : relative;
+margin : 0 auto;
+background : url(../images/header.jpg) no-repeat 0% 0%;
+}
+#headerPan img#logo {
+position : absolute;
+top : 5px;
+left : 10px;
+}
+#headerPan ul.menu {
+margin : 10px 0 0 0;
+width : 680px;
+float : right;
+}
+#headerPan ul.menu li {
+float : left;
+height : 18px;
+margin-right : 27px;
+}
+#headerPan ul.menu li a {
+height : 18px;
+display : block;
+text-indent : -2px;
+padding : 5px 10px;
+font-size : 14px;
+font-weight : bold;
+text-transform : uppercase;
+color : #f90;
+text-decoration : none;
+background : #222;
+}
+#headerPan ul.menu li a:hover {
+height : 18px;
+color : #fff;
+background : #900;
+}
+#contentPan {
+width : 960px;
+position : relative;
+margin : 0 auto;
+background : #fff;
+}
+#c1 {
+width : 270px;
+margin : 10px;
+padding : 10px;
+float : left;
+display : inline;
+background : #eee;
+}
+#c2 {
+width : 600px;
+margin : 24px 0 0 0;
+float : left;
+}
+#c2 img {
+float : right;
+border : 1px solid #ccc;
+padding : 5px;
+width : 180px;
+height : 80px;
+}
+blockquote p {
+padding : 5px;
+line-height : 22px;
+font-style : italic;
+}
+#icons img {
+width : 31px;
+height : 32px;
+float : left;
+margin : 5px;
+border : none;
+}
+#news, #testimonials {
+margin-bottom : 20px;
+}
+#news h2 {
+height : 17px;
+position : relative;
+margin-bottom : 15px;
+}
+#news p {
+margin-bottom : 15px;
+}
+#news p span {
+margin-bottom : 7px;
+display : block;
+padding-left : 20px;
+background : url(../images/icon_news.gif) no-repeat 0% 3px;
+font : 12px/14px Tahoma, Geneva, sans-serif;
+color : #d07f22;
+font-weight : bold;
+}
+#news p a {
+font : 12px Tahoma, sans-serif;
+color : #7d7268;
+text-decoration : underline;
+}
+#news p a:hover {
+color : #000;
+text-decoration : none;
+}
+#testimonials h2 {
+height : 17px;
+position : relative;
+background : url(../images/h_testimonials.gif) no-repeat 0% 0%;
+margin-bottom : 15px;
+}
+#testimonials p span {
+margin-bottom : 10px;
+display : block;
+padding-left : 24px;
+background : url(../images/icon_testimonials.gif) no-repeat 0% 0%;
+font : 12px/14px Tahoma, Geneva, sans-serif;
+color : #8c0f06;
+font-weight : bold;
+}
+#welcome {
+margin-bottom : 20px;
+}
+#welcome h2 {
+height : 35px;
+position : relative;
+margin-bottom : 5px;
+}
+#welcome p.headline2 {
+margin-bottom : 12px;
+padding-bottom : 10px;
+border-bottom : 1px dotted #2e2e2e;
+}
+#welcome img {
+float : left;
+margin-right : 13px;
+}
+#featured h2 {
+height : 17px;
+position : relative;
+margin-bottom : 15px;
+}
+#featured .clear {
+height : 20px;
+}
+#footerPan {
+width : 960px;
+height : 64px;
+margin : 0 0 10px 0;
+background : #900;
+}
+#footerPan p {
+padding : 5px 0 0 0;
+font : 11px/16px Tahoma, Geneva, sans-serif;
+font-weight : normal;
+text-align : right;
+color : #fdf4b5;
+}
+#footerPan p span {
+font : 11px/14px Tahoma, Geneva, sans-serif;
+color : #fdf4b5;
+}
+#footerPan p a {
+font : 11px/14px Tahoma, Geneva, sans-serif;
+color : #fdf4b5;
+text-decoration : none;
+padding : 0 3px;
+}
+#footerPan p a:hover {
+font : 11px/14px Tahoma, Geneva, sans-serif;
+text-decoration : underline;
+}

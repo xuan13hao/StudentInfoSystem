@@ -1,0 +1,35 @@
+/* CSS Document */
+/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body{background:#fff;color:#333;font-size:12px;font-family:"SimSun","宋体","Arial Narrow";}
+
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+
+/*a{text-decoration:none;}
+a:link{color:#009;}
+a:visited{color:#800080;}
+a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}*/
+
+
+.clear{ clear:both;}
+
+
+
+/*后台数据表格*/
+.redtable{ margin:10px auto; border-collapse:collapse;}
+.redtable td{ border:1px #CCCCCC solid; line-height:30px;}
+.redtable th{ padding-left:10px; background:#CC0000; color:#FFFFFF; font-weight:bold; line-height:34px;}
+.redtable td a{ color:#FF3300; text-decoration:none;}
+.redtable td a:hover{ text-decoration:underline;}
+/*输入框*/
+.redinput{ width:120px; line-height:26px;}
+
+a.l1:visited,a.l1:active,a.l1:link{ color:#FF3300; text-decoration:none;}
+a.l1:hover{ text-decoration:underline;}
+
+a.l2:visited,a.l2:active,a.l2:link{ color:#000; text-decoration:none;}
+a.l2hover{ text-decoration:underline;}
+
+.showPage a{color:#000;text-decoration:none;}
+.showPage a:hover{ text-decoration:underline; color:#FF3300;}
