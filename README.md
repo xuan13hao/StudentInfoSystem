@@ -1,4 +1,4 @@
-# student_info_manager
-个人信息管理系统实现（数据库实现可发邮件）
+# Student Information Manager System (Web version)
+Student information management system implementation (database implementation can be sent via email)
 
-个人信息管理系统底层架构pojo+servlet+mysql+jsp
+Architecture: Bean DAO Factory 
